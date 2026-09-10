@@ -114,5 +114,6 @@ test.describe('Homepage', () => {
     await expect(products).toHaveCount(1);
 
     await expect(page.locator('.product-info h3')).toContainText('Keyboard');
-  }
+  });
+  
 });
